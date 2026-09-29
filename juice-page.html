@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="shortcut icon" href="./assets/imgs/martini.png" type="image/png">
+    <title>Juice</title>
+</head>
+
+<body class="bg-gray-50 text-gray-600 mb-22">
+
+    <div class="container mx-auto px-4 my-4">
+        <div class="mx-auto w-full max-w-xl">
+            <figure class="relative rounded-lg">
+                <!-- img -->
+                <img src="assets/imgs/the-strawberry.jpg" alt="half lemon with white background" class="rounded-lg">
+                <!-- navigation -->
+                <a href="#"
+                    class="absolute left-4 top-4 w-12 h-12 bg-white rounded-full shadow -shadow flex justify-center items-center text-lg font-bold">
+                    <i class="ri-arrow-left-line"></i>
+                </a>
+                <a href="#"
+                    class="absolute right-4 top-4 w-12 h-12 bg-white rounded-full shadow -shadow flex justify-center items-center text-lg font-bold">
+                    <i class="ri-more-2-fill"></i>
+                </a>
+            </figure>
+            <article class="-my-4 bg-gray-50 rounded-xl relative px-2">
+                <header>
+                    <div class="flex justify-between items-center py-2">
+                        <span class="uppercase text-green-800 font-bold">Fruits</span>
+                        <span
+                            class="w-24 h-8 flex justify-center items-center text-white bg-red-500 rounded-full px-4">20%
+                            off</span>
+                    </div>
+                    <!-- title -->
+                    <h1 class="text-4xl text-gray-800 font-bold">Organic strawberry</h1>
+                    <!-- comment -->
+                    <div class="flex gap-3 my-2">
+                        <div class="flex items-center gap-2">
+                            <span class="text-yellow-500">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-line"></i>
+                            </span>
+                            <b class="text-gray-800">
+                                4.5
+                            </b>
+                        </div>
+                        <span>
+                            (289 reviews)
+                        </span>
+                    </div>
+                    <!-- price -->
+                    <div class="items-center my-3">
+                        <p class="font-bold"><span class="text-3xl">$6.20</span>
+                            <del class="text-gray-400 font-regular">$7.20</del> per kg
+                        </p>
+                    </div>
+                </header>
+
+                <div>
+                    <!-- description -->
+                    <p class="md:text-lg">
+                        Grown without pesky synthetic pesticides and
+                        fertilizers. These fresh strawberries are packed
+                        with natural nutrients and a delicious taste.
+                    </p>
+
+                    <div class="w-full h-px bg-gray-200 my-4"></div>
+
+                    <!-- features -->
+                    <div>
+                        <ul class="flex gap-4 justify-between">
+                            <li class="flex flex-col gap-1 items-center">
+                                <i class="ri-leaf-line text-green-800 text-3xl"></i>
+                                <span>Organic</span>
+                            </li>
+                            <li class="flex flex-col gap-1 items-center">
+                                <i class="ri-contrast-drop-line text-green-800 text-3xl"></i>
+                                <span>Fresh</span>
+                            </li>
+                            <li class="flex flex-col gap-1 items-center">
+                                <i class="ri-truck-line text-green-800 text-3xl"></i>
+                                <span>Free delivery</span>
+                            </li>
+                            <li class="flex flex-col gap-1 items-center">
+                                <i class="ri-baseball-line text-green-800 text-3xl"></i>
+                                <span>Mexico</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="w-full h-px bg-gray-200 my-4"></div>
+                </div>
+            </article>
+
+            <section class="px-2">
+                <h2 class="text-lg font-bold pt-4 pb-3">Choose weight</h2>
+
+                <ul class="grid grid-cols-4 gap-4">
+                    <li class="border border-gray-300 px-1 py-3 rounded-lg cursor-pointer">
+                        <div class="flex flex-col items-center gap-1">
+                            <span class="text-lg font-bold">0.5 kg</span>
+                            <span class="italic">Snack</span>
+                            <span class="font-semibold">$3.10</span>
+                        </div>
+                    </li>
+
+                    <li class="border border-green-100 bg-green-800 text-green-100 px-1 py-3 rounded-lg cursor-pointer">
+                        <div class="flex flex-col items-center gap-1">
+                            <span class="text-lg font-bold">1 kg</span>
+                            <span class="italic">Regular</span>
+                            <span class="font-semibold">$6.20</span>
+                        </div>
+                    </li>
+
+                    <li class="border border-gray-300 px-1 py-3 rounded-lg cursor-pointer">
+                        <div class="flex flex-col items-center gap-1">
+                            <span class="text-lg font-bold">2 kg</span>
+                            <span class="italic">Family</span>
+                            <span class="font-semibold">$12.40</span>
+                        </div>
+                    </li>
+
+                    <li class="border border-gray-300 px-1 py-3 rounded-lg cursor-pointer">
+                        <div class="flex flex-col items-center gap-1">
+                            <span class="text-lg font-bold">3 kg</span>
+                            <span class="italic">Party</span>
+                            <span class="font-semibold">$18.60</span>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="px-2">
+                <h3 class="text-lg font-bold pt-4 pb-3">Often bought with</h3>
+
+                <div>
+                    <ul class="grid grid-cols-2 gap-4">
+                        <li class="p-1 border border-gray-300 rounded-lg">
+                            <figure class="relative w-full h-full">
+                                <img src="assets/imgs/lemon.jpg" alt="" class="w-full h-full object-cover">
+                                <button
+                                    class="px-2 cursor-pointer absolute right-4 top-4 bg-gray-50 w-8 h-8 rounded-lg flex justify-center items-center -shadow shadow">
+                                    <i class="ri-add-line"></i>
+                                </button>
+                            </figure>
+                        </li>
+
+                        <li class="p-1 border border-gray-300 rounded-lg">
+                            <figure class="relative w-full h-full">
+                                <img src="assets/imgs/mango.jpg" alt="" class="w-full h-full object-cover">
+                                <button
+                                    class="px-2 cursor-pointer absolute right-4 top-4 bg-gray-50 w-8 h-8 rounded-lg flex justify-center items-center -shadow shadow">
+                                    <i class="ri-add-line"></i>
+                                </button>
+                            </figure>
+                        </li>
+
+                        <li class="p-1 border border-gray-300 rounded-lg">
+                            <figure class="relative w-full h-full">
+                                <img src="assets/imgs/grape.jpg" alt="" class="w-full h-full object-cover">
+                                <button
+                                    class="px-2 cursor-pointer absolute right-4 top-4 bg-gray-50 w-8 h-8 rounded-lg flex justify-center items-center -shadow shadow">
+                                    <i class="ri-add-line"></i>
+                                </button>
+                            </figure>
+                        </li>
+
+                        <li class="p-1 border border-gray-300 rounded-lg">
+                            <figure class="relative w-full h-full">
+                                <img src="assets/imgs/apple.jpg" alt="" class="w-full h-full object-cover">
+                                <button
+                                    class="px-2 cursor-pointer absolute right-4 top-4 bg-gray-50 w-8 h-8 rounded-lg flex justify-center items-center -shadow shadow">
+                                    <i class="ri-add-line"></i>
+                                </button>
+                            </figure>
+                        </li>
+
+                        <li class="p-1 border border-gray-300 rounded-lg">
+                            <figure class="relative w-full h-full">
+                                <img src="assets/imgs/carrot.jpg" alt="" class="w-full h-full object-cover">
+                                <button
+                                    class="px-2 cursor-pointer absolute right-4 top-4 bg-gray-50 w-8 h-8 rounded-lg flex justify-center items-center -shadow shadow">
+                                    <i class="ri-add-line"></i>
+                                </button>
+                            </figure>
+                        </li>
+
+                        <li class="p-1 border border-gray-300 rounded-lg">
+                            <figure class="relative w-full h-full">
+                                <img src="assets/imgs/the-pineapple.jpg" alt="" class="w-full h-full object-cover">
+                                <button
+                                    class="px-2 cursor-pointer absolute right-4 top-4 bg-gray-50 w-8 h-8 rounded-lg flex justify-center items-center -shadow shadow">
+                                    <i class="ri-add-line"></i>
+                                </button>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- action to buy -->
+            <footer class="fixed bottom-0 left-0 w-full h-20 bg-gray-50 border border-gray-100 rounded-lg">
+                <div class="container px-2 my-5 mx-auto">
+                    <div class="mx-auto max-w-lg px-2 flex justify-between">
+                        <div class="border-2 border-gray-200 p-2 rounded-lg">
+                            <button class="px-2 cursor-pointer">
+                                <i class="ri-subtract-line"></i>
+                            </button>
+                            <span>2 <span class="text-gray-400 text-sm">kg</span></span>
+                            <button class="px-2 cursor-pointer">
+                                <i class="ri-add-line"></i>
+                            </button>
+                        </div>
+
+                        <div>
+                            <button class="bg-green-800 text-green-100 p-2 px-4 rounded-lg cursor-pointer">
+                                Add to cart - <span>$6.20</span></button>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>
