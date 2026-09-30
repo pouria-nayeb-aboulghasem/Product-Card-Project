@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+        }
+
+        .figure-overlay::after {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 100%;
+            height: 4.5rem;
+            bottom: 0;
+            left: 0;
+            background-image: linear-gradient(to bottom, transparent, #fbf9fa);
+        }
+
+        .timeline::before {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 4px;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-image: linear-gradient(to bottom, #7008e7, #fbf9fa);
+        }
+    </style>
+    <title> Game Trial </title>
+</head>
+
+<body class="bg-gray-50 text-gray-600">
+
+    <div class="container mx-auto my-4 px-4">
+
+        <div class="max-w-lg mx-auto rounded-xl">
+            <figure class="figure-overlay relative">
+                <img src="assets/imgs/game.jpg" alt="" class="rounded-xl">
+            </figure>
+
+            <article class="p-4 bg-white">
+                <header class="flex flex-col gap-3 mt-2">
+                    <h1 class="text-3xl font-bold text-gray-800">
+                        How your free trial works
+                    </h1>
+                    <p>
+                        Full access to 1000+ games. <br />
+                        First 7 days are free. then
+                        <b class="font-bold">$19 per month</b>
+                    </p>
+                </header>
+
+                <div class="timeline relative flex flex-col gap-6 my-4">
+
+                    <section class="ml-4 relative">
+                        <span
+                            class="absolute -left-8 top-0 bg-violet-700 text-gray-50 w-8 h-8 rounded-full flex justify-center items-center">
+                            <i class="ri-lock-unlock-line"></i>
+                        </span>
+                        <h4 class="font-bold ml-4">Today</h4>
+                        <p class="ml-4">
+                            Unlock our library of 100+ premium <br>
+                            futuristic and fun games
+                        </p>
+                    </section>
+
+                    <section class="ml-4 relative">
+                        <span
+                            class="absolute -left-8 bg-white text-gray-600 w-8 h-8 rounded-full flex justify-center items-center">
+                            <i class="ri-notification-line"></i>
+                        </span>
+                        <h4 class="font-bold ml-4">Day 5</h4>
+                        <p class="ml-4">
+                            We'll send you a reminder that your <br>
+                            free trial is ending soon
+                        </p>
+                    </section>
+
+                    <section class="ml-4 relative">
+                        <span
+                            class="absolute -left-8 bg-white text-gray-600 w-8 h-8 rounded-full flex justify-center items-center">
+                            <i class="ri-star-line"></i>
+                        </span>
+                        <h4 class="font-bold ml-4">Day 7</h4>
+                        <p class="ml-4">
+                            Your first charge of S19/mo begins on <br>
+                            03 Mar 2026. Cancel anytime before
+                        </p>
+                    </section>
+
+                </div>
+
+                <footer class="mt-12">
+                    <a href="#"
+                        class="w-full flex justify-center items-center h-12 bg-violet-800 text-gray-50 p-2 rounded-lg">
+                        Start my free trial now
+                    </a>
+                    <p class="text-center text-gray-500 mt-3">
+                        Start in 2 taps. cancel anytime.
+                    </p>
+                </footer>
+            </article>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
