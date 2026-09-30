@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="shortcut icon" href="assets/imgs/Logo.png" type="image/png">
+    <style>
+        .figure-overlay::after {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 100%;
+            height: 5rem;
+            bottom: 0;
+            left: 0;
+            background-image: linear-gradient(to bottom, transparent, #fbf9fa);
+            z-index: 0;
+        }
+    </style>
+    <title>Villa reserve</title>
+</head>
+
+<body class="bg-gray-50 text-gray-500">
+
+    <main class="container mx-auto px-4 my-4">
+
+        <div class="max-w-lg mx-auto rounded-lg overflow-x-hidden">
+            <figure class="relative figure-overlay">
+                <img src="assets/imgs/villa.jpg" alt="" class="w-full h-full object-cover rounded-lg">
+
+                <div class="absolute top-2 left-0 w-full flex justify-between px-4">
+                    <div>
+                        <a href="#"
+                            class="bg-[rgba(0,0,0,0.5)] text-gray-50 backdrop-blur-xs w-12 h-12 flex justify-center items-center font-bold text-lg shadow rounded-full hover:bg-[rgba(0,0,0,0.75)] duration-300 transition">
+                            <i class="ri-arrow-left-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="flex gap-2">
+                        <button
+                            class="bg-[rgba(0,0,0,0.5)] text-gray-50 backdrop-blur-xs w-12 h-12 flex justify-center items-center font-bold text-lg shadow rounded-full cursor-pointer hover:bg-[rgba(0,0,0,0.75)] duration-300 transition">
+                            <i class="ri-download-2-line"></i>
+                        </button>
+                        <button
+                            class="bg-[rgba(0,0,0,0.5)] text-gray-50 backdrop-blur-xs w-12 h-12 flex justify-center items-center font-bold text-lg shadow rounded-full cursor-pointer hover:bg-[rgba(0,0,0,0.75)] duration-300 transition">
+                            <i class="ri-poker-hearts-line"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="absolute left-0 bottom-2 flex justify-between w-full px-4 text-xs sm:text-sm z-1">
+                    <div class="flex gap-2">
+                        <span
+                            class="uppercase bg-[rgba(0,0,0,0.5)] text-gray-50 backdrop-blur-xs p-1 rounded-lg sm:p-2">SuperHost</span>
+                        <span
+                            class="uppercase bg-[rgba(0,0,0,0.5)] text-gray-50 backdrop-blur-xs p-1 rounded-lg sm:p-2">Guest
+                            Favorite</span>
+                    </div>
+
+                    <span
+                        class="uppercase bg-[rgba(0,0,0,0.5)] text-gray-50 p-1 backdrop-blur-xs rounded-lg sm:p-2">1/24</span>
+                </div>
+            </figure>
+
+            <article class="px-4 bg-white">
+                <h1 class="text-4xl font-bold text-gray-800">
+                    Beach side escape steps <wbr>
+                    from the sand
+                </h1>
+                <p class="mt-2 mb-4">
+                    Entire vila • 2 beds • 1 bath • Marbella, Spain
+                </p>
+
+                <div class="flex flex-wrap items-center gap-2">
+                    <div class="flex gap-2 items-center">
+                        <span class="bg-yellow-100 px-2 py-1 rounded-lg">
+                            <i class="ri-star-fill text-yellow-600"></i>
+                            <b class="text-gray-800">4.96</b>
+                        </span>
+
+                        <a href="#">
+                            (128 reviews)
+                        </a>
+                    </div>
+
+                    <span class="text-green-600 font-bold px-2 py-1 rounded-lg">
+                        Top 1% in Marbella
+                    </span>
+                </div>
+
+                <div class="flex justify-between items-center my-3">
+                    <span class="flex gap-2 items-center">
+                        <span class="text-3xl text-gray-800 font-bold">€89</span>
+                        <del class="text-gray-400">€129</del>
+                        <span class="text-lg">/ night</span>
+                    </span>
+
+                    <span class="bg-green-100 text-green-800 px-2 py-1 rounded-lg font-bold">-31%</span>
+                </div>
+
+                <div
+                    class="border-2 border-gray-300 rounded-lg p-2 flex flex-wrap gap-4 justify-center sm:gap-2 sm:justify-between sm:p-4">
+                    <div class="flex gap-3 items-center">
+                        <div class="flex flex-col gap-1">
+                            <span class="text-gray-400 text-sm">CHECK-IN</span>
+                            <span class="font-bold text-gray-800 sm:text-lg">Fri, Mar 28</span>
+                        </div>
+                        <div class="text-xl font-bold text-gray-400">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <span class="text-gray-400 text-sm">CHECK-OUT</span>
+                            <span class="font-bold text-gray-800 sm:text-lg">Wed, Apr 2</span>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col gap-2 items-center bg-gray-200 p-2 rounded-lg">
+                        <span>NIGHTS</span>
+                        <span class="text-gray-800 font-bold text-lg">5</span>
+                    </div>
+                </div>
+
+                <div class="my-4">
+                    <a href="#"
+                        class="w-full bg-pink-800 text-pink-100 p-3 flex justify-center items-center rounded-lg hover:bg-pink-900 duration-300 transition">
+                        Reserve • €445 total
+                    </a>
+
+                    <p class="font-bold text-green-800 text-sm text-center my-2 sm:text-md">
+                        <i class="ri-lightbulb-line"></i>
+                        Free cancellation before Mar 26
+                    </p>
+                </div>
+            </article>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
